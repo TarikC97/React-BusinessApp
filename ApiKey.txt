@@ -1,0 +1,4 @@
+Sifra:
+  NewsApi115
+ApiKey:
+  d008bfc43d034feb936ceb976bd4c0a4
