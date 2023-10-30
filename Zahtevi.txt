@@ -1,8 +1,0 @@
-Zahtevi:
-	Header - Logo,AboutUs
-	HomePage - Banner(Big Picture), News(Cards),NewsPagination,
-		   Card - Title,Description,Author,Date, Image,
-		   SingleNews - on Click
-		   SinglePosition - Image,Title,Desc,Content, SourceUrl(UseLocation)
-	About Us - Image, Content aboutUs
-	Footer	
