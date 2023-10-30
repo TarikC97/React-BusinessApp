@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #Txt.files
-ApiKey
-Zahtevi
+ApiKey.txt
+Zahtevi.txt
