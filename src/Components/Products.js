@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import NewsCard from './NewsCard'
+import './Card.css'
 
 const Products = () => {
   const [products, setProducts] = useState([])
@@ -14,17 +16,9 @@ const Products = () => {
   }, [])
   console.log(products)
   return (
-    <div>
-      {products.map((prod) => (
-        <h1 key={prod.title}>
-          Author:{prod.author}
-          <br></br>
-          Description:{prod.description}
-          <br></br>
-          Date:{prod.publishedAt}
-          <br></br>
-          <img src={prod.urlToImage} width={350}></img>
-        </h1>
+    <div className='products'>
+      {products.map((news) => (
+        <NewsCard news={news} key={news.title} />
       ))}
     </div>
   )

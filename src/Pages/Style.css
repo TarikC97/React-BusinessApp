@@ -1,0 +1,32 @@
+.header{
+    width: 100vw;
+    height: 13vh;
+    background: linear-gradient(to right, beige,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4vw;
+    padding-left: 2vw;
+}
+.footer{
+    width: 100vw;
+    height: 13vh;
+    background: linear-gradient(to right, beige,black);
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    padding-left: 7vw;
+    flex-direction: row;
+}
+.home{
+    padding-top: 5%;
+    display: flex;
+    background: linear-gradient(to left, beige,black);
+    width: 100vw;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
