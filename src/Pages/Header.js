@@ -1,6 +1,7 @@
 import React from 'react'
 import './Style.css'
 import { useNavigate } from 'react-router-dom'
+import Search from '../Components/Search'
 
 const Header = () => {
   const navigate = useNavigate()

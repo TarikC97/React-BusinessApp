@@ -1,12 +1,11 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import NewsCard from './NewsCard'
 import './Card.css'
+import Search from './Search'
 
 const Products = () => {
   const [products, setProducts] = useState([])
-
   useEffect(() => {
     axios
       .get(
@@ -16,10 +15,8 @@ const Products = () => {
   }, [])
   console.log(products)
   return (
-    <div className='products'>
-      {products.map((news) => (
-        <NewsCard news={news} key={news.title} />
-      ))}
+    <div>
+      <Search details={products} />
     </div>
   )
 }

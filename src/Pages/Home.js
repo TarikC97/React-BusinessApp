@@ -5,7 +5,12 @@ import './Style.css'
 const Home = () => {
   return (
     <div className='home'>
-      <Products />
+      <div className='banner'>
+        <h1>BusinessNews</h1>
+      </div>
+      <div className='products'>
+        <Products />
+      </div>
     </div>
   )
 }
