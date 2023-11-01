@@ -1,5 +1,4 @@
 import './App.css'
-import Products from './Components/Products'
 import Home from './Pages/Home'
 import Footer from './Pages/Footer'
 import Header from './Pages/Header'
